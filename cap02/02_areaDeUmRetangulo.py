@@ -1,0 +1,6 @@
+lado1 = input("Informe a medida de um lado do retângulo: ")
+lado2 = input("Informe a medida de outro lado: ")
+print("Lado 1 é numérico? ", lado1.isnumeric())
+print("Lado 2 é númérico? ", lado2.isnumeric())
+area = float(lado1) * float(lado2)
+print("A área do retângulo é {}".format(area))
