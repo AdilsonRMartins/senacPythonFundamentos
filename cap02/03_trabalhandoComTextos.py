@@ -8,8 +8,10 @@ print("4. Primeira letra maiúscula: ", nomeCompleto.capitalize())
 espaco = nomeCompleto.find(" ")
 print("5. Primeiro nome: ", nomeCompleto[0:espaco])
 print("6. Nome sem espaços: ", nomeCompleto.replace(" ", ""))
-print("7. Possui somente letras? (precisamos tirar os espaços)", nomeCompleto.replace(" ", "").isalpha())
-print("8. É alfanumérico? tem letras OU números (precisamos tirar os espaços)", nomeCompleto.replace(" ", "").isalnum())
+print("7. Possui somente letras? (precisamos tirar os espaços)",
+      nomeCompleto.replace(" ", "").isalpha())
+print("8. É alfanumérico? tem letras OU números (precisamos tirar os espaços)",
+      nomeCompleto.replace(" ", "").isalnum())
 print("Quebrar o texto a cada espaço em branco: ", nomeCompleto.split(" "))
 print("10. Para centralizar o nome com o caracter *")
-print(nomeCompleto.center(80,"*"))
+print(nomeCompleto.center(80, "*"))
