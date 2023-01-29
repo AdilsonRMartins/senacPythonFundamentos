@@ -26,4 +26,3 @@ while run == "S":
         final = "Vitória do jogador."
     print(f"Resultado: {final}")
     run = input("Digite 'S' para jogar novamente. Ou, qualquer tecla para encerrar: ").upper()
-
