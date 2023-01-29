@@ -11,4 +11,4 @@ for i in range(1, 11):
     linha = "{: >4} ".format(i)
     for ii in range(2, 11):
         linha += "{: >4} ".format(ii * i)
-    print("isso" + linha)
+    print(linha)
